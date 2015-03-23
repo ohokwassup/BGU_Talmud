@@ -1,0 +1,120 @@
+3/9/2015 0:23:0
+Plan for this session: 
+     To read stuff and become a real Jewish mentsch!
+
+What was accomplished this session: 
+     I did nothing, in the end
+
+The new perspective of the project and vision of its future: 
+     I will be a bum, it seems
+
+Sign out: 3/9/2015 0:23:49
+
+**************
+
+Sign in: 3/9/2015 0:25:7
+
+Plan for this session: 
+     To clarify that both this entry and the previous entry in this log are tests and should not be taken seriously
+
+What was accomplished this session: 
+     I clarified a potentially fatal confusion
+
+The new perspective of the project and vision of its future: 
+     This log file seems to be very readable, however with many entries (or with long entries) browsing this file may prove tedious
+
+Sign out: 3/9/2015 0:27:24
+
+**************
+
+Sign in: 3/11/2015 12:28:24
+
+Plan for this session: 
+     Read on generators and chapters 3 and 4 of NLTK
+
+What was accomplished this session: 
+     Read chapters 1 + 2 + 3, and looked briefly at four, set up nltk on comp.
+
+The new perspective of the project and vision of its future: 
+     NLTK tools will aid tremendously, but only if one is comfortably familiar with them. I must review chapter 4 and experiment using nltk on the files i have
+
+Sign out: 3/11/2015 14:49:45
+
+**************
+
+Sign in: 3/14/2015 22:46:19
+
+Plan for this session: 
+     Try to tokenize an excerpt of Talmud using NLTK and display frequency and other such info
+
+What was accomplished this session: 
+     Set up initial files reviewed ch 4
+
+The new perspective of the project and vision of its future: 
+     no different, will continue in the am
+
+Sign out: 3/15/2015 1:12:42
+
+**************
+
+Sign in: 3/16/2015 18:2:28
+
+Plan for this session: 
+     create git repository, how to efficiently tokenize all of talmud?, create list of names from word doc
+
+What was accomplished this session: 
+     reformatted tokenizer.py, created repository, discovered how long tokenizing the entire text can take...still waiting
+
+The new perspective of the project and vision of its future: 
+     I must still create the list of names and learn faster way to tokenize large data (generators?)
+
+Sign out: 3/16/2015 19:39:55
+
+**************
+
+
+Sign in: 3/21/2015 15:48:41
+
+Plan for this session: 
+     read input with generator, save tokens externally (as csv), explore some classes
+
+What was accomplished this session: 
+     implemented generator, having problems unpickling freqdist
+
+The new perspective of the project and vision of its future: 
+     it is difficult to know exactly what nltk is doing unless you look at source, how much does freqdist compute on initalization? 
+
+Sign out: 3/21/2015 18:47:42
+
+**************
+
+Sign in: 3/21/2015 18:58:10
+
+Plan for this session: 
+     to fix unpickling problem
+
+What was accomplished this session: 
+     fixed 
+
+The new perspective of the project and vision of its future: 
+     move on to iexploring statistics, but test tokenization with large data first
+
+Sign out: 3/21/2015 18:59:16
+
+**************
+
+Sign in: 3/23/2015 19:5:33
+
+Plan for this session: 
+     clean up what i have of tokenizer, improve efficiency, explore classes
+
+What was accomplished this session: 
+     cleaned up slightly. discovered problem with nltks tokenizer punctuation extraction--it dissects abbreviated names
+
+The new perspective of the project and vision of its future: 
+     need to figure out how to adjust the punctuation rules
+
+Sign out: 3/23/2015 23:32:39
+
+**************
+

@@ -39,18 +39,30 @@ else:
 """for line in f:
     line = line.strip()
     print(line)"""
-
 def make_tokens():
     with codecs.open(path, encoding='utf8') as f:
-        print path
         for line in f:
-            for word in line.split():
-                yield word_tokenize(word)
+            #for word in line.split():
+            yield word_tokenize(line) #tokenize or word_tokenize?
 #storing as freqdist
+tokens = []
 tokens = make_tokens()
-fdist = nltk.FreqDist(t[0] for t in tokens)
+print 'printing tokens'
+print tokens
+print 'printing t in tokens'
+for t in tokens:
+    if type(t) is list:
+        print 'tks are coming'
+        for tks in t:
+            print tks.encode('utf8')
+        tokens = t
+fdist = nltk.FreqDist(tokens)
 sorted(fdist)
-
+fdist.plot()
+#attempt to store tokens directly from generator to freqdist
+'''fdist = nltk.FreqDist(make_tokens())
+sorted(fdist)
+'''
 #printing tokens
 for key in fdist:
     print key.encode('utf8') + ': ' + str(fdist[key]) + '; ',
@@ -64,7 +76,7 @@ outfile.close()
 infile = open("tokens.pkl", "rb")
 dist = pickle.load(infile)
 infile.close()
-dist.plot()
+#dist.plot()
 """
 raw = f.read()
 if to_print:
