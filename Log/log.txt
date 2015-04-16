@@ -123,3 +123,13 @@ Sign in: 4/16/2015 18:6:59
 Plan for this session: 
      fix indentation error, begin working on the distibution of first 4 words of mishna/gemara
 
+What was accomplished this session: 
+     fixed error; explored other nltk tools for distribution;
+
+The new perspective of the project and vision of its future: 
+     unsure of which nltk tools to use, must i keep a list of tokens? or just the freqdist of the tokens? it seems the samples do not have a location property
+
+Sign out: 4/16/2015 19:52:47
+
+**************
+
