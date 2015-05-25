@@ -31,12 +31,12 @@ if not os.path.exists('/Users/Raphi/Documents/WorkThings/Talmud_Pro/Main/tokens.
     """for line in f:
         line = line.strip()
         print(line)"""
-    tokenizer = RegexpTokenizer("""(\S+"\S+)|\s?[\u05D0-\u05EA]+\s|(\.|\\|\?|\(|\)|:|;)|([\u05D0-\u05EA]'\s)""")
+    #tokenizer = RegexpTokenizer(r"[\u05D0-\u05EA]+")
     def make_tokens():
         with codecs.open(path, encoding='utf8') as f:
             for line in f:
                 #for word in line.split():
-                yield tokenizer.tokenize(line) #word_tokenize(line) #tokenize or word_tokenize?
+                yield word_tokenize(line) #tokenizer.tokenize(line) #tokenize or word_tokenize?
     #storing as freqdist
     tokens = []
     tokens = make_tokens()
@@ -48,7 +48,7 @@ if not os.path.exists('/Users/Raphi/Documents/WorkThings/Talmud_Pro/Main/tokens.
     for t in tokens:
         if type(t) is list:
             for tks in t:
-                #print tks.encode('utf8')
+                print tks.encode('utf8')
                 tokenslist.append(tks)
                 count = count + 1
             #tokens = t

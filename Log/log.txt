@@ -133,3 +133,23 @@ Sign out: 4/16/2015 19:52:47
 
 **************
 
+Sign in: 4/27/2015 17:3:42
+
+Plan for this session: 
+     try and seperate names, create some classes of tokens
+
+Sign in: 5/25/2015 17:19:57
+
+Plan for this session: 
+     to finally fix the regex problem (which is almost fixed)
+
+What was accomplished this session: 
+     regular expression problem fixed
+
+The new perspective of the project and vision of its future: 
+     must look back at tokenization and create categories of tokens
+
+Sign out: 5/25/2015 23:10:35
+
+**************
+
